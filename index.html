@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFS - Insurance For Students</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Nav CSS -->
+    <link rel="stylesheet" href="./css/nav.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/49f02d4a75.js" crossorigin="anonymous"></script>
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" id="jkit-elements-main-css" href="css/iconfont/main.css" media="all">
+    <link rel="stylesheet" id="elementor-icons-jkiticon-css" href="css/iconfont/jkiticon.css" media="all">
+    <link rel="stylesheet" id="elementor-icons-ekiticons-css" href="css/iconfont/ekiticon.css" media="all">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" sizes="32x32" />
+
+</head>
+
+<body>
+    <!-- Start Header -->
+    <!-- Start Top Nav -->
+    <div class="top_nav navbar-expand-lg">
+        <div class="container">
+            <div class="d-flex justify-content-sm-end justify-content-center align-items-center">
+                <a href="" class="me-2">STUDENT LOGIN</a>
+                <p class="mb-0"> | </p>
+                <a href="" class="ms-3 pe-1">ADMIN LOGIN</a>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Nav -->
+    <!-- Start Main Nav -->
+        <nav class="navbar navbar-expand-lg position-sticky pt-3 pb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" class="img-fluid" width="202px"></a>
+            <button class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Us <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="About us.html">Company Overview</a></li>
+                            <li><a class="dropdown-item" href="Blog.html">Blog Overview</a></li>
+                            <li><a class="dropdown-item" href="Blog Single.html">Blog Details</a></li>
+                            <li><a class="dropdown-item" href="Faqs.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Student.html">Students</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Products Overview.html">Products Overview</a></li>
+                            <li><a class="dropdown-item" href="Product Details.html">Products Details</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="FutureHealth.html">Future<bold>Health</bold></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="offcanvas offcanvas-start d-block d-lg-none" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            About Us <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="About us.html">Company Overview</a></li>
+                            <li><a class="dropdown-item" href="Blog.html">Blog Overview</a></li>
+                            <li><a class="dropdown-item" href="Blog Single.html">Blog Details</a></li>
+                            <li><a class="dropdown-item" href="Faqs.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Student.html">Students</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Products <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Products Overview.html">Products Overview</a></li>
+                            <li><a class="dropdown-item" href="Product Details.html">Products Details</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="FutureHealth.html">Future<bold>Health</bold></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- End Header -->
+
+    <!-- Start Hero -->
+    <div class="home-hero">
+        <div class="black pt-5 pb-5">
+            <div class="container d-flex justify-content-center align-items-center h-100">
+                <div class="position-relative text-center wow animate__fadeInLeft" data-wow-duration="2s">
+                    <h1 class="fw-bold">Student-Centric, Solutions-Oriented <br> And Future-Focused.</h1>
+                    <p>We have 40 years of experience servicing educational institutions with comprehensive insurance to
+                        meet the challenges of modern student life.</p>
+                    <a href="">STUDENTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero -->
+    <!-- Start Moving Cards -->
+    <div class="moving_cards pt-1 wow animate__fadeInUp" data-wow-duration="2s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="flip-container" data-card="card_1">
+                        <div class="card" id="card_1">
+                            <div class="front d-flex justify-content-center align-items-center">
+                                <div class="position-relative text-center">
+                                    <i class="jki jki-megaphone1-light"></i>
+                                    <h3 class="mt-5">HEALTH PROMOTION</h3>
+                                </div>
+                            </div>
+                            <div class="back d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h5 class="mb-4"> Health Promotion </h5>
+                                    <p>
+                                        Our ready-made health promotion materials can be shared with all students on
+                                        campus. Options for campaign-focused or customized materials are also available.
+                                    </p>
+                                    <a href="">Connect With Us </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="flip-container" data-card="card_2">
+                        <div class="card" id="card_2">
+                            <div class="front d-flex justify-content-center align-items-center">
+                                <div class="position-relative text-center">
+                                    <i class="icon icon-customer-support-2"></i>
+                                    <h3 class="mt-5">Find Support </h3>
+                                </div>
+                            </div>
+                            <div class="back d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h5 class="mb-4">Find Support </h5>
+                                    <p>
+                                        We’ve got you covered. Find counseling and support 24/7 with A Student
+                                        Assistance Program (ASAP).
+                                    </p>
+                                    <a href="">LEARN MORE </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="flip-container futurehealth" data-card="card_3">
+                        <div class="card" id="card_3">
+                            <div class="front d-flex justify-content-center align-items-center">
+                                <div class="position-relative text-center">
+                                    <i class="jki jki-chalkboard-teacher-solid"></i>
+                                    <h3 class="mt-5">Future<strong>Health</strong>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="back d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h5 class="mb-4">Future<strong>Health</strong></h5>
+                                    <p> Access essential health education and wellness resources on our online platform.
+                                    </p>
+                                    <a href="">LEARN MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-4">
+                    <div class="flip-container" data-card="card_4">
+                        <div class="card" id="card_4">
+                            <div class="front d-flex justify-content-center align-items-center">
+                                <div class="position-relative text-center">
+                                    <i class="jki jki-calendar-alt-solid"></i>
+                                    <h3 class="mt-5">Upcoming Events </h3>
+                                </div>
+                            </div>
+                            <div class="back d-flex justify-content-center align-items-center">
+                                <div>
+                                    <h5 class="mb-4">Upcoming Events </h5>
+                                    <p>Check out our calendar of upcoming mental health and wellness events. </p>
+                                    <a href="">
+                                        Browse Events </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Moving Cards -->
+    <!-- Start What We Are -->
+    <div class="who_we_are pt-5 pb-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 wow animate__fadeInLeft  order-2  order-lg-1 mt-4"
+                    data-wow-duration="2s">
+                    <span>Who We Are</span>
+                    <h1>We Are The Partner You Have Been Waiting For.</h1>
+                    <p>As innovators, we are always a step ahead.</p>
+                    <div class="cards mt-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-1  me-3">
+                                    <i class="jki jki-graduation-hat-light"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body1">
+                                        <h5 class="card-title">Student-Centric</h5>
+                                        <p class="card-text">Our holistic approach encompasses institutional goals with
+                                            programs centered on student retention, ensuring that every student has
+                                            affordable options and customized care.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-1 me-3">
+                                    <i class="jki jki-checked1-light"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body1">
+                                        <h5 class="card-title">Solutions-Oriented</h5>
+                                        <p class="card-text">Our online resources and wellness tools meet the students’
+                                            immediate needs and provide 24/7 support.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-1 me-3">
+                                    <i class="icon icon-handshake"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="card-body1">
+                                        <h5 class="card-title">Future-Focused</h5>
+                                        <p class="card-text">Through ongoing innovation, our mission is to create
+                                            products that are focused on students physical and mental well-being with
+                                            the goal of having a brighter future.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 wow animate__fadeIn  order-1 order-lg-2 mt-4" data-wow-duration="2s">
+                    <div class="image">
+                        <img src="./images/student.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End What We Are -->
+    <!-- Start What We Do -->
+    <div class="what_we_do pt-5 pb-5">
+        <div class="container">
+            <div class="title text-center position-relative wow animate__fadeInUp" data-wow-duration="2s">
+                <span>What We Do</span>
+                <h1>Innovative Insurance Solutions</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInDown" data-wow-duration="2s">
+                    <div class="card p-5" style="height: 100%;">
+                        <div class="image">
+                            <i class="elementkit-infobox-icon jki jki-consut2-light"></i>
+                        </div>
+                        <div class="card-body p-0 pt-2">
+                            <h4>Consulting Services</h4>
+                            <p class="card-text">We analyze your current program to develop solutions..</p>
+                            <a href="">Connect With Us <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInDown" data-wow-duration="2s">
+                    <div class="card p-5" style="height: 100%;">
+                        <div class="image">
+                            <i class="elementkit-infobox-icon jki jki-customer-support-2-light"></i>
+                        </div>
+                        <div class="card-body p-0 pt-2">
+                            <h4>Customer Service</h4>
+                            <p class="card-text">Our experienced team is ready to answer questions and support you every
+                                step of the way.</p>
+                            <a href="">Connect With Us <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInDown" data-wow-duration="2s">
+                    <div class="card p-5" style="height: 100%;">
+                        <div class="image">
+                            <i class="elementkit-infobox-icon jki jki-clipboard11-light"></i>
+                        </div>
+                        <div class="card-body p-0 pt-2">
+                            <h4>Waiver System</h4>
+                            <p class="card-text">Our advanced, customizable online waiver system makes it easy for
+                                students to waive and for administrators to manage programs.</p>
+                            <a href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInDown" data-wow-duration="2s">
+                    <div class="card p-5" style="height: 100%;">
+                        <div class="image">
+                            <i class="elementkit-infobox-icon jki jki-settings1-light"></i>
+                        </div>
+                        <div class="card-body p-0 pt-3">
+                            <h4>Marketing</h4>
+                            <p class="card-text">Social media, brochures, email reminders and text notifications. We can
+                                do all the outreach so you have one less worry.</p>
+                            <a href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInDown" data-wow-duration="2s">
+                    <div class="card p-5" style="height: 100%;">
+                        <div class="image">
+                            <i class="elementkit-infobox-icon jki jki-Computer-light"></i>
+                        </div>
+                        <div class="card-body p-0 pt-3">
+                            <h4>Customized Web Pages</h4>
+                            <p class="card-text">Tailored landing pages seamlessly integrate into your website to
+                                provide program information and easy access for students.</p>
+                            <a href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInDown" data-wow-duration="2s">
+                    <div class="card p-5" style="height: 100%;">
+                        <div class="image">
+                            <i class="elementkit-infobox-icon jki jki-brain-light"></i>
+                        </div>
+                        <div class="card-body p-0 pt-3">
+                            <h4>ASAP / Future<bold>Health</bold></h4>
+                            <p class="card-text">Our resource platforms provide 24/7 access for students – offering
+                                counseling services (ASAP) along with health and wellness education (Future<bold>Health</bold>).</p>
+                            <a href="">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="link">DISCOVER MORE</a>
+        </div>
+    </div>
+    <!-- End What We Do -->
+    <!-- Start Student Program -->
+    <div class="student_program pt-3 pb-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInLeft" data-wow-duration="2s">
+                    <span>Made For Modern Student Life</span>
+                    <h1 class="my-3">A Student Assistance Program (ASAP)</h1>
+                    <p>ASAP encompasses total wellness by offering support for both body and mind.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInUp" data-wow-duration="2s">
+                    <div class="card py-4 text-center" style="padding: 100px 50px;">
+                        <div class="icon">
+                            <i class="icon icon-customer-support-2"></i>
+                        </div>
+                        <div class="card-body p-0 pt-3">
+                            <h5>24/7 Support</h5>
+                            <p class="card-text">Our comprehensive counseling service oﬀers immediate and conﬁdential
+                                support through our 24/7 toll-free hotline.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 wow animate__fadeInUp" data-wow-duration="2s">
+                    <div class="card py-4 text-center" style="padding: 100px 50px;">
+                        <div class="icon">
+                            <i class="jki jki-brain-light"></i>
+                        </div>
+                        <div class="card-body p-0 pt-3">
+                            <h5>Mental Health Resources</h5>
+                            <p class="card-text">Our online wellness program provides students access to the latest
+                                information from the area’s top medical doctors and mental health professionals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Student Program -->
+    <!-- Start Testimonials -->
+    <div class="testimonials pt-5">
+        <div class="container">
+            <div class="title text-center wow animate__fadeInUp" data-wow-duration="2s">
+                <span>Testimonials</span>
+                <h1>What Clients Are Saying About Us</h1>
+                <p>We proudly share 40 years of providing students with the utmost care and coverage.</p>
+            </div>
+            <div class="owl-carousel owl-theme owl-loaded owl-drag mt-4 wow animate__fadeInDown" data-wow-duration="2s">
+                <div class="item text-center">
+                    <div class="mb-3" style="max-width: 390px;">
+                        <div class="image">
+                            <img src="./images/MarshallUniversity.jpg" alt="">
+                        </div>
+                        <h5 class="mt-3">Marshall University Student</h5>
+                        <p>“I had an issue and needed a refund. I contacted Buddy and was able to get the issue resolved
+                            very quickly.” </p>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <div class="mb-3" style="max-width: 390px;">
+                        <div class="image">
+                            <img src="./images/SienaUniversity.jpg" alt="">
+                        </div>
+                        <h5 class="mt-3">Sarah Korth, Siena Heights University</h5>
+                        <p>“IFS has always been able to answer our questions and provides excellent customer service.”
+                        </p>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <div class="mb-3" style="max-width: 390px;">
+                        <div class="image">
+                            <img src="./images/ValenciaCollege.png" alt="">
+                        </div>
+                        <h5 class="mt-3">Valencia College Student</h5>
+                        <p>“I reached out to ask about my insurance information and I got a prompt response. IFS was
+                            able to help me when I needed it.” </p>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <div class="mb-3" style="max-width: 390px;">
+                        <div class="image">
+                            <img src="./images/HillsboroughCommunity.jpg" alt="">
+                        </div>
+                        <h5 class="mt-3">Glorianna Felix, Hillsborough Community College </h5>
+                        <p>“The IFS team are wonderful people. I love how responsive they are. I contacted them for a
+                            student health insurance presentation to use later on that day and they were able to
+                            promptly send me a presentation within the hour. I
+                            love the mental health advocacy cards they created, and so I asked for more of those to give
+                            out to my Freshman Orientation class. Great job!” </p>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <div class="mb-3" style="max-width: 390px;">
+                        <div class="image">
+                            <img src="./images/AmericanInternational.png" alt="">
+                        </div>
+                        <h5 class="mt-3">Kaelly Ryan, American International College</h5>
+                        <p>“The IFS team has been impressive to work with. There is always a representative ready to
+                            assist with providing customized materials and resources for distribution to our students.
+                            The Future<bold>Health</bold> online educational programs allow
+                            our students access to information on a variety of health and wellness topics. Thank you,
+                            IFS!”</p>
+                    </div>
+                </div>
+                <div class="item text-center">
+                    <div class="mb-3" style="max-width: 390px;">
+                        <div class="image">
+                            <img src="./images/FloridaAtlantic.jpg" alt="">
+                        </div>
+                        <h5 class="mt-3">Craig Wilder, Director of Sports Medicine, Florida Atlantic University </h5>
+                        <p>“Craig Bode and IFS are an amazing partner to work with. Their communication, attentiveness,
+                            timeliness, and dedication to students and student athletes is top tier. Anything I need or
+                            ask is handled within hours. Extremely responsive
+                            and easy to get a hold of with any question I may have. I recommend IFS to anyone and
+                            everyone.” </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact -->
+    <div class="contact pt-5 pb-5">
+        <div class="container p-5 wow animate__fadeInUp" data-wow-duration="2s">
+            <div class="d-flex justify-content-between align-items-center flex-column flex-sm-row ">
+                <h1 class="mb-0">Next Step</h1>
+                <a href="mailto:info@insuranceforstudents.com?" class="mb-0">CONTACT US <i
+                        class="fa-regular fa-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <footer class="pb-5 footer-main">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-brannd">
+                    <div class="">
+                        <div class="image">
+                            <img src="./images/logo_footer.png" alt="" class="img-fluid">
+                        </div>
+                        <p class="pe-1 mt-3">We have 40 years of experience servicing educational institutions with
+                            comprehensive insurance to meet the challenges of modern student life.</p>
+                        <div class="icons d-flex align-items-center ">
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 d-none d-sm-block">
+                    <div class="part-3">
+                        <h3>Navigation</h3>
+                        <ul class="pt-3">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About IFS</a></li>
+                            <li><a href="">Supplemental Plans</a></li>
+                            <li><a href="">K-12 Plans</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 d-none d-sm-block">
+                    <div class="">
+                        <h3>Useful Links</h3>
+                        <ul class="pt-3">
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms And Conditions</a></li>
+                            <li><a href="">Support</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Student </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 d-none d-sm-block">
+                    <div class="get_in_touch ">
+                        <h3>Get In Touch</h3>
+                        <ul class="">
+                            <li class="address">1690 S Congress Ave, Suite 101 Delray Beach, FL 33445</li>
+                            <li class="time">9:00am - 5:00pm <br> Monday - Friday</li>
+                            <li class="phone">+1 (561) 300-5677</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center position-relative">
+            <div class="container">
+                <div class="copyright pt-3">Copyright © 2023 Insurance for Students | Powered by 26West.</div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery for Owl Carousel  -->
+    <script src="js/jquery.3.6.0.min.js"></script>
+    <!-- Owl Carousel Script -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Bootstrap Script -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- WOWJs Script -->
+    <script src="./js/wow.min.js"></script>
+    <!-- Main Script -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

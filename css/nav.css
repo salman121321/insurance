@@ -1,0 +1,124 @@
+
+
+:root {
+  --MavenPro: "Maven Pro", sans-serif;
+  --LatoFamily: "Lato", sans-serif;
+}
+
+.top_nav {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 15px;
+  padding: 5px !important;
+  padding: 10px;
+}
+
+.top_nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: var(--MavenPro);
+}
+.dropdown-item {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1em;
+  padding: 15px 15px 15px 15px;
+  white-space: wrap;
+}
+button.navbar-toggler .fa-solid,button.navbar-toggler .fas {
+    color: white !important; 
+}
+@media(min-width:1025px){
+ul.dropdown-menu.show {
+  width: 275px;
+  border: none;
+  padding-top: 30px;
+}
+}
+
+nav {
+  top: 0;
+  z-index: 105000;
+  background-color: white;
+  line-height : 1em;
+}
+
+nav a {
+    font-family: var(--MavenPro);
+}
+
+nav .navbar-toggler {
+  background-color: var(--primary-color);
+}
+
+nav.navbar .container,
+.top_nav .container{
+    padding: 0;
+}
+
+nav.navbar a.navbar-brand {
+    margin: 0;
+    padding: 16px;
+}
+nav.navbar {
+    padding: 1px 0px !important;
+}
+.pb-3
+nav .navbar-toggler i {
+  color: white;
+  font-size: 31px;
+}
+
+nav .navbar-collapse li {
+  padding: 0px 10px 0px 10px;
+}
+
+nav .navbar-collapse li a.nav-link,
+nav .offcanvas li a.nav-link {
+  color: var(--primary-color);
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: 0.5s;
+
+}
+a.nav-link {
+    letter-spacing: 0.6px;
+}
+@media(min-width:992px){
+    nav .navbar-collapse li a.nav-link,
+nav .offcanvas li a.nav-link {
+  padding: 0px 15px 0px 15px;
+}
+  a.nav-link {
+    padding: 0 5px !important;
+}
+
+}
+nav .navbar-collapse li.nav-item a.active,
+nav .offcanvas li.nav-item a.active {
+  color: var(--secondary-color);
+}
+
+nav .navbar-collapse li a.nav-link:hover,
+nav .navbar-collapse li a.nav-link:focus,
+nav .dropdown-toggle:focus,
+nav .offcanvas li a.nav-link:hover,
+nav .offcanvas li a.nav-link:focus {
+  color: var(--secondary-color);
+}
+
+nav .navbar-toggler:focus {
+  box-shadow: none;
+}
+@Media(min-width:1025px){
+    .navbar .container {
+    max-width: 1230px;
+}
+}
+
+nav .navbar-collapse li a i {
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
